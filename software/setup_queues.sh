@@ -1,5 +1,5 @@
 # Modify the bus:device.function to your output of lspci | grep Xilinx (function must be 1 for QDMA)
-bus="01"
+bus="61"
 device="00"
 function="1"
 echo 100 > "/sys/bus/pci/devices/0000:${bus}:${device}.${function}/qdma/qmax"
