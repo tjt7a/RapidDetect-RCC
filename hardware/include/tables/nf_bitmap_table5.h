@@ -1,11 +1,11 @@
 #ifndef NFPM_BITMAP_TABLE5_H
 #define NFPM_BITMAP_TABLE5_H
 #define NFPM_BITMAP_TABLE5_WIDTH (8)
-#define NFPM_BITMAP_TABLE5_DEPTH (32)
-#define NFPM_BITMAP_TABLE5_LGDEPTH (5)
+#define NFPM_BITMAP_TABLE5_DEPTH (16)
+#define NFPM_BITMAP_TABLE5_LGDEPTH (4)
 
 
-#define NFPM_BITMAP_TABLE5_MAXLGDEPTH (11)
+#define NFPM_BITMAP_TABLE5_MAXLGDEPTH (10)
 
 
 #if SPUMP_PRGMA
@@ -17,37 +17,21 @@
 #if DPORT_PRGMA
 [[intel::simple_dual_port]]
 #endif
-const static unsigned char NFPM_BITMAP_TABLE5[32] = {
+const static unsigned char NFPM_BITMAP_TABLE5[16] = {
  0x00,
- 0x00,
- 0x40,
- 0x08,
- 0x01,
- 0x40,
- 0x04,
- 0x22,
- 0x00,
- 0xa8,
- 0x00,
- 0x04,
- 0x00,
- 0x84,
- 0x00,
- 0x00,
- 0x12,
- 0x02,
  0x20,
- 0x04,
- 0x10,
- 0x19,
- 0x81,
- 0x0c,
+ 0x80,
+ 0x50,
+ 0x80,
  0x00,
  0x00,
- 0x08,
  0x00,
- 0x04,
  0x00,
+ 0x20,
+ 0x00,
+ 0x28,
+ 0x00,
+ 0x02,
  0x00,
  0x00
 };

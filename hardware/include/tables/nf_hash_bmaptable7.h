@@ -5,7 +5,7 @@
 #define NFPM_HASH_BMAPTABLE7_LGDEPTH (6)
 
 
-#define NFPM_HASH_BMAPTABLE7_MAXLGDEPTH (14)
+#define NFPM_HASH_BMAPTABLE7_MAXLGDEPTH (13)
 
 
 #if SPUMP_PRGMA
@@ -33,12 +33,12 @@ const static unsigned char NFPM_HASH_BMAPTABLE7[64] = {
  0x0,
  0x0,
  0x0,
- 0x4,
+ 0x1,
  0x0,
  0x0,
  0x0,
  0x0,
- 0x4,
+ 0x1,
  0x0,
  0x0,
  0x0,
@@ -46,7 +46,7 @@ const static unsigned char NFPM_HASH_BMAPTABLE7[64] = {
  0x0,
  0x0,
  0x0,
- 0x4,
+ 0x1,
  0x0,
  0x0,
  0x0,
@@ -81,6 +81,6 @@ const static unsigned char NFPM_HASH_BMAPTABLE7[64] = {
  0x0,
  0x0,
  0x0,
- 0x4
+ 0x1
 };
 #endif
